@@ -5604,7 +5604,7 @@ if (userState[userId]?.state === "PLATFORM_SELECTED" && lines.length >= 2) {
         
         if (!freeModeEnabled && !allowedsixlotteryIds.has(gameUserId)) {
           await sendMessageWithRetry(ctx,
-            `${EMOJI.ERROR} ${STYLE.BOLD(🤖'သင့် IDသည ်PREMIUM အသုံးပြုခွင့်မရရှိ‌ေသးပါ။')}\n\n` +
+            `${EMOJI.ERROR} ${STYLE.BOLD('🤖သင့် IDသည် REMIUMIအသုံးပြုခွင့်မရပါ။')}\n\n` +
             `${EMOJI.INFO} 💤FREE MODE CLOSED.\n` +
             `${EMOJI.INFO} 💸PREMIUM BUY : @iam18usc1030:\n` +
             `${STYLE.ITEM(`Your ID: ${STYLE.CODE(gameUserId.toString())}`)}`,
